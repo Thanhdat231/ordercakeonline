@@ -1,0 +1,45 @@
+<!-- fOOD sEARCH Section Starts Here -->
+    <section class="food-search text-center">
+        <div class="container">
+            
+            <form action="food-search.html" method="POST">
+                <input type="search" name="search" placeholder="Search for Snea.." required>
+                <input type="submit" name="submit" value="Search" class="btn btn-primary">
+            </form>
+
+        </div>
+    </section>
+    <!-- fOOD sEARCH Section Ends Here -->
+
+    <!-- CAtegories Section Starts Here -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="text-center">Khám Phá</h2>
+
+            <a href="category-foods.html">
+            <div class="box-3 float-container">
+                <img src="./images/banhkemSocola.jpg" alt="Bánh kem" class="img-responsive img-curve">
+
+                <h3 class="float-text text-white">Bánh kem</h3>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="box-3 float-container">
+                <img src="./images/banh_cupcake.jpg" alt="Borba" class="img-responsive img-curve">
+
+                <h3 class="float-text text-white">Bánh ngọt</h3>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="box-3 float-container">
+                <img src="./images/borba.jpg" alt="khac" class="img-responsive img-curve">
+
+                <h3 class="float-text text-white">Khác</h3>
+            </div>
+            </a>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
